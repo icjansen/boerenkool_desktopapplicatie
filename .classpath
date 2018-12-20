@@ -11,7 +11,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/lawrencebensaid/Documents/Development/Java-Resources/sun.misc.base64decoder.jar">
+	<classpathentry kind="lib" path="/Users/lawrencebensaid/Documents/Development/Java-Projects/boerenkool_desktopapplicatie/resources/sun.misc.base64decoder.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
