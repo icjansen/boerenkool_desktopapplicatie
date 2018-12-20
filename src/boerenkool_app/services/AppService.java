@@ -1,4 +1,4 @@
-package app.services;
+package boerenkool_app.services;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
-import app.ApplicationDefaults;
+import boerenkool_app.ApplicationDefaults;
 
 public class AppService {
 	

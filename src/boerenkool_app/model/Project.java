@@ -1,4 +1,4 @@
-package app.model;
+package boerenkool_app.model;
 
 public class Project {
 

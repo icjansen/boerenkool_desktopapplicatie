@@ -1,7 +1,7 @@
-package core.UI;
+package boerenkool_core.UI;
 
-import app.AppDelegate;
-import core.UI.views.UIView;
+import boerenkool_app.AppDelegate;
+import boerenkool_core.UI.views.UIView;
 
 public class UIViewController {
 

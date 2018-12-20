@@ -1,10 +1,10 @@
-package app;
+package boerenkool_app;
 
 import javax.swing.UIManager;
 
-import app.controller.HomeViewController;
-import core.UI.UIViewController;
-import core.UI.UIWindow;
+import boerenkool_app.controller.HomeViewController;
+import boerenkool_core.UI.UIViewController;
+import boerenkool_core.UI.UIWindow;
 
 public class AppDelegate {
 	

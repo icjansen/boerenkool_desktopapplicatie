@@ -1,4 +1,4 @@
-package core.util;
+package boerenkool_core.util;
 
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;

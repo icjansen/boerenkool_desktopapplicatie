@@ -1,4 +1,4 @@
-package app.view;
+package boerenkool_app.view;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -11,12 +11,12 @@ import java.net.URL;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
-import app.model.Project;
-import core.UI.UIImage;
-import core.UI.views.UIImageView;
-import core.UI.views.UILabel;
-import core.UI.views.UIView;
-import core.util.Base64converter;
+import boerenkool_app.model.Project;
+import boerenkool_core.UI.UIImage;
+import boerenkool_core.UI.views.UIImageView;
+import boerenkool_core.UI.views.UILabel;
+import boerenkool_core.UI.views.UIView;
+import boerenkool_core.util.Base64converter;
 
 @SuppressWarnings("serial")
 public class ProjectView extends UIView {

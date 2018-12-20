@@ -1,4 +1,4 @@
-package core.UI.views;
+package boerenkool_core.UI.views;
 
 import javax.swing.JLabel;
 

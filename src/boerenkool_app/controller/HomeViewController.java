@@ -1,4 +1,4 @@
-package app.controller;
+package boerenkool_app.controller;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -20,18 +20,18 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.border.EmptyBorder;
 
-import app.AppDelegate;
-import app.LoadingWindow;
-import app.model.Project;
-import app.services.AppService;
-import app.view.ProjectView;
-import core.UI.UIViewController;
-import core.UI.UIWindow;
-import core.UI.views.UIButton;
-import core.UI.views.UIScrollView;
-import core.UI.views.UISplitView;
-import core.UI.views.UITextField;
-import core.UI.views.UIView;
+import boerenkool_app.AppDelegate;
+import boerenkool_app.LoadingWindow;
+import boerenkool_app.model.Project;
+import boerenkool_app.services.AppService;
+import boerenkool_app.view.ProjectView;
+import boerenkool_core.UI.UIViewController;
+import boerenkool_core.UI.UIWindow;
+import boerenkool_core.UI.views.UIButton;
+import boerenkool_core.UI.views.UIScrollView;
+import boerenkool_core.UI.views.UISplitView;
+import boerenkool_core.UI.views.UITextField;
+import boerenkool_core.UI.views.UIView;
 
 @SuppressWarnings("serial")
 public class HomeViewController extends UIViewController implements MouseListener {

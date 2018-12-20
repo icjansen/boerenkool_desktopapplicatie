@@ -1,4 +1,4 @@
-package app;
+package boerenkool_app;
 
 import java.awt.Color;
 

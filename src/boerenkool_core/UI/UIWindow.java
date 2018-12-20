@@ -1,4 +1,4 @@
-package core.UI;
+package boerenkool_core.UI;
 
 import java.awt.Dimension;
 

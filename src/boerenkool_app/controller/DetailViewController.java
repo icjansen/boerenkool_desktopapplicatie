@@ -1,4 +1,4 @@
-package app.controller;
+package boerenkool_app.controller;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -17,14 +17,14 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
-import app.model.Project;
-import core.UI.UIImage;
-import core.UI.UIViewController;
-import core.UI.views.UIButton;
-import core.UI.views.UIImageView;
-import core.UI.views.UILabel;
-import core.UI.views.UITextArea;
-import core.UI.views.UIView;
+import boerenkool_app.model.Project;
+import boerenkool_core.UI.UIImage;
+import boerenkool_core.UI.UIViewController;
+import boerenkool_core.UI.views.UIButton;
+import boerenkool_core.UI.views.UIImageView;
+import boerenkool_core.UI.views.UILabel;
+import boerenkool_core.UI.views.UITextArea;
+import boerenkool_core.UI.views.UIView;
 
 public class DetailViewController extends UIViewController {
 	
