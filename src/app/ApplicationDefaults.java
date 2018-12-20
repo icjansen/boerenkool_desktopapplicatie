@@ -10,15 +10,15 @@ public class ApplicationDefaults {
 	
 	// Database
 	
-	public static final String DATABASE = "lawren38_boerenkool"; // basbieckmann_boerenkool
+	public static final String DATABASE = "basbieckmann_boerenkool";
 	
-	public static final String HOST = "107.6.153.58"; // 185.104.29.16
+	public static final String HOST = "185.104.29.16";
 	
 	public static final int PORT = 3306;
 	
-	public static final String PASSWORD = "COwu^6n996IT"; // metworst
+	public static final String PASSWORD = "metworst"; // COwu^6n996IT
 
-	public static final String USERNAME = "lawren38_worst"; // basbieckmann_boerenkool
+	public static final String USERNAME = "basbieckmann_boerenkool"; // lawren38_worst
 	
 	public static String getLink() {
 		return "jdbc:mysql://" + HOST + ":" + PORT + "/" + DATABASE;

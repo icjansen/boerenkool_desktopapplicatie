@@ -1,5 +1,6 @@
 package core.UI;
 
+import app.AppDelegate;
 import core.UI.views.UIView;
 
 public class UIViewController {
@@ -32,20 +33,21 @@ public class UIViewController {
 	
 	public void dismiss(boolean animated) {
 		if (parentView != null) {
-			view = parentView;
-			view.getRootPane().validate();
+			AppDelegate.window.getRootPane().setContentPane(parentView);
+			AppDelegate.window.getRootPane().validate();
+		} else {
+			System.out.println("Can't dismiss UIViewController because no parent is set");
 		}
 	}
 	
 	public void present(UIViewController viewController) {
 		present(viewController, true);
-		System.out.print("Dismiss UIViewController");
 	}
 	
 	public void present(UIViewController viewController, boolean animated) {
-		view = viewController.view;
-		view.getRootPane().validate();
-		System.out.print("Present UIViewController");
+		viewController.parentView = view;
+		AppDelegate.window.getRootPane().setContentPane(viewController.view);
+		AppDelegate.window.getRootPane().validate();
 	}
 	
 	

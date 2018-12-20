@@ -8,7 +8,7 @@ import core.UI.UIWindow;
 
 public class AppDelegate {
 	
-	public UIWindow window;
+	public static UIWindow window;
 	
 	
 	public AppDelegate() {
